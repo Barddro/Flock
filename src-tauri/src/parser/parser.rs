@@ -1,4 +1,4 @@
-use std::{collections::HashMap, u32, vec};
+use std::{collections::HashMap, u32};
 
 //Note: we implement ids as a Vector of ints representing both its depth and which child it is
 

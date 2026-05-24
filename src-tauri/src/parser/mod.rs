@@ -1,3 +1,4 @@
-pub mod prefix_tree;
 pub mod parser;
 pub mod resolver;
+pub mod trie;
+pub mod matrix;

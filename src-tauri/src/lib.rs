@@ -1,4 +1,8 @@
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
+
+pub mod parser;
+pub mod utils;
+
 #[tauri::command]
 fn greet(name: &str) -> String {
     format!("Hello, {}! You've been greeted from Rust!", name)
@@ -13,4 +17,3 @@ pub fn run() {
         .expect("error while running tauri application");
 }
 
-pub mod parser;

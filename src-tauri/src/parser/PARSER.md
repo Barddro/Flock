@@ -139,6 +139,7 @@ Then, whenever referencing this definition later inside the RNN section, the pop
  Forward Propogation: The process of pushing values through a neural network through layers and get a final output
     |
     -----> Uses previous hidden states that contribute to the values of later ones (as well as output(s))
+```
 
 -------------------------------------------------------
 
